@@ -1,0 +1,17 @@
+@media screen and(min-width: 320px) {
+  .menu-btn {
+    border-radius: 10px;
+    font-size: 15px;
+  }
+}
+
+.page-menu__buttons-wrapp {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.page-menu__buttons-wrapp__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
