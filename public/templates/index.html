@@ -4,36 +4,125 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="stylesheet" href="../styles/x320.css" />
+    <link rel="stylesheet" href="../styles/x768.css" />
+    <!-- <link rel="stylesheet" href="../styles/x1120.css" /> -->
     <title>CamelCase</title>
   </head>
   <body>
     <header>
       <nav class="nav-bar">
         <section class="nav-bar__menu-section">
-          <div class="nav-bar__menu-section__menu-icon-wrapp">
-            <img src="../images/navigation/menu.svg" alt="" />
+          <div class="nav-bar__menu-section__menu icon-wrapp">
+            <div
+              class="nav-bar__menu-section__menu__icon-wrapp__circle btn-hover"
+            >
+              <img src="../images/navigation/menu.svg" alt="" />
+            </div>
           </div>
-          <div class="nav-bar__menu-section__logo-icon-wrapp">
-            <img src="../images/navigation/logo.svg" alt="" />
+          <div class="nav-bar__menu-section__logo icon-wrapp">
+            <img
+              src="../images/navigation/logo.svg"
+              width="40"
+              height="40"
+              alt=""
+            />
           </div>
         </section>
+
+        <div class="nav-bar__divider-wrapp">
+          <div class="nav-bar__divider-wrapp__divider"></div>
+        </div>
 
         <!--  -->
         <!-- nth-child show if media screen width -->
         <!--  -->
 
         <section class="nav-bar__media-section">
-          <div class="nav-bar__media-section__repair-icon-wrapp">
-            <img src="../images/navigation/reapai.svg" alt="" />
+          <div class="nav-bar__media-section__settings icon-wrapp">
+            <div
+              class="nav-bar__menu-section__menu__icon-wrapp__circle btn-hover"
+            >
+              <img src="../images/navigation/settings.svg" alt="" />
+            </div>
           </div>
-          <div class="nav-bar__media-section__search-icon-wrapp">
-            <img src="../images/navigation/search.svg" alt="" />
+          <div class="nav-bar__media-section__search icon-wrapp">
+            <div
+              class="nav-bar__menu-section__menu__icon-wrapp__circle btn-hover"
+            >
+              <img src="../images/navigation/search.svg" alt="" />
+            </div>
           </div>
         </section>
       </nav>
     </header>
 
-    <main></main>
+    <main>
+      <section class="page-title">
+        <div class="page-title__wrapp">
+          <div class="page-title__wrapp__background">
+            <img src="../images/main/services.svg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="page-menu">
+        <div class="page-menu__buttons-wrapp">
+          <div class="page-menu__buttons-wrapp__buttons">
+            <button
+              class="page-menu__buttons-wrapp__buttons__repaireable-devices menu-btn totaly-active"
+            >
+              Ремонтируемые устройства
+            </button>
+            <button
+              class="page-menu__buttons-wrapp__buttons__other-services menu-btn"
+            >
+              Другие услуги
+            </button>
+            <button
+              class="page-menu__buttons-wrapp__buttons__price-list menu-btn"
+            >
+              Цены на услуги
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="about__description-wrapp">
+          <div class="about__description-wrapp__description">
+            <div class="about__description-wrapp__description__text-container">
+              <p
+                class="about__description-wrapp__description__text-container__text"
+              >
+                Мы являемся авторизованным сервисным центром по ремонту техники
+                Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+                официальной гарантией производителя. 
+                <br>
+                <br>
+                Мы успешно работаем с 1992
+                года и заслужили репутацию надежного партнера
+              </p>
+            </div>
+            <div class="about__show-more-btn">
+              <div class="about__show-more-btn__icon">
+                <img
+                  src="../images/main/about/showMore.svg"
+                  width="12"
+                  height="12"
+                  alt=""
+                />
+              </div>
+              <div class="about__show-more-btn__text">Читать далее</div>
+            </div>
+          </div>
+          <div class="about__description-wrapp__image-wrapp">
+            <img src="../images/main/about/retro.svg" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
+    <div class="here320"></div>
   </body>
 </html>
