@@ -13,4 +13,23 @@
   font-family: "TT Lakes";
 }
 
+.about__show-more-btn {
+  display: flex;
+  flex-direction: row;
+  margin-left: 25px;
+  margin-bottom: 15px;
+}
 
+.about__show-more-btn:hover {
+  cursor: pointer;
+}
+
+.about__show-more-btn__icon {
+  padding-right: 10px;
+}
+
+.about__show-more-btn__text {
+  color: antiquewhite;
+  font-family: "TT Lakes";
+  font-size: 20px;
+}
