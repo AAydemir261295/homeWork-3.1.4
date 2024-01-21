@@ -19,6 +19,13 @@
   width: 50%;
 }
 
+.nav-bar__media-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  width: 50%;
+}
+
 .nav-bar__divider-wrapp__divider {
   width: 2px;
   height: 85%;

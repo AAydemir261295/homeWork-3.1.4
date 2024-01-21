@@ -5,12 +5,7 @@
   }
 }
 
-.nav-bar__media-section {
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
-  width: 50%;
-}
+
 
 .nav-bar__media-section__menu__icon-wrapp__circle {
   background-color: #cd5c5c;

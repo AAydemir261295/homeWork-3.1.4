@@ -74,19 +74,6 @@ main {
   }
 }
 
-@font-face {
-  font-family: "TT Lakes";
-  src: url("fonts/TTLakesCondensed-DemiBold.eot");
-  src: local("TT Lakes Condensed DemiBold"), local("TTLakesCondensed-DemiBold"),
-    url("fonts/TTLakesCondensed-DemiBold.eot?#iefix")
-      format("embedded-opentype"),
-    url("fonts/TTLakesCondensed-DemiBold.woff") format("woff"),
-    url("fonts/TTLakesCondensed-DemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-  font-display: optional;
-}
-
 .menu-btn {
   background-color: transparent;
   outline: none;
@@ -103,4 +90,17 @@ main {
 
 .totaly-active {
   border: 1px solid antiquewhite;
+}
+
+@font-face {
+  font-family: "TT Lakes";
+  src: url("TTLakesCondensed-DemiBold.eot");
+  src: local("TT Lakes Condensed DemiBold"), local("TTLakesCondensed-DemiBold"),
+    url("fonts/TTLakesCondensed-DemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/TTLakesCondensed-DemiBold.woff") format("woff"),
+    url("fonts/TTLakesCondensed-DemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: optional;
 }
