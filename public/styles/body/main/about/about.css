@@ -1,4 +1,17 @@
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 1120px) and (min-width: 480px) {
+  .about {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+  }
+
+  .about__description-wrapp__image-wrapp > img {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 480px) {
   .about__description-wrapp__description__text-container__text {
     max-height: 80px;
     padding-left: 10px;

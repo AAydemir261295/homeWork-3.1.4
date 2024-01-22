@@ -1,7 +1,12 @@
-@media screen and (min-width: 320px) {
+/* @media screen and (max-width: 1120px) and (min-width: 480px) {
   .page-title__wrapp__background {
-    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
   }
+} */
+
+@media screen and (max-width: 480px) {
 }
 
 .page-title {
@@ -14,6 +19,10 @@
 
 .page-title__wrapp {
   width: 90%;
+}
+
+.page-title__wrapp__background {
+  border-radius: 10px;
 }
 
 .page-title__wrapp__background {
