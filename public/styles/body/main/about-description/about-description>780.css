@@ -30,7 +30,6 @@
 
   .about-description__text-wrapp > p {
     max-height: 250px;
-    /* line-break: auto; */
     overflow: hidden;
   }
 }
