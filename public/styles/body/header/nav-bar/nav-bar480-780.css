@@ -1,0 +1,44 @@
+@media screen and (max-width: 780px) and (min-width: 480px) {
+    nav img {
+      max-width: 45px;
+      max-height: 45px;
+    }
+  
+    .nav-bar {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      border: 1px solid antiquewhite;
+      border-radius: 20px;
+      padding-top: 5px;
+      background-color: rgba(250, 235, 215, 0.241);
+      height: 50px;
+      width: 100%;
+    }
+  
+    .nav-bar__center-section {
+      flex: 3 1 auto;
+      justify-content: flex-end;
+    }
+  
+    .nav-bar__left-section__icon-wrapp__circle {
+      width: 45px;
+      height: 45px;
+      background-color: #cd5c5c;
+      border-radius: 35%;
+    }
+  
+    .nav-bar__right-section__icon-wrapp__circle {
+      width: 45px;
+      height: 45px;
+      background-color: #cd5c5c;
+      border-radius: 35%;
+    }
+  
+    .nav-bar__center-section__icon-wrapp__circle {
+      width: 45px;
+      height: 45px;
+      background-color: #cd5c5c;
+      border-radius: 35%;
+    }
+  }

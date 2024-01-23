@@ -1,22 +1,13 @@
-@media screen and (max-width: 480px) {
-  .page-menu {
-    overflow-x: scroll;
-    scrollbar-width: thin;
-  }
-}
-
-.menu-btn {
-  border-radius: 10px;
-  font-size: 15px;
-}
-
 .page-menu {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
   margin-top: 5px;
 }
 
 .page-menu__buttons-wrapp {
+  display: flex;
+  flex-direction: row;
   padding-left: 15px;
   padding-right: 15px;
 }

@@ -1,0 +1,20 @@
+@media screen and (max-width: 1120px) and (min-width: 780px) {
+  .page-menu {
+    overflow-x: auto;
+    scrollbar-width: thin;
+  }
+
+  .page-menu__buttons-wrapp {
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 10000px) and (min-width: 1120px) {
+  .page-menu {
+    overflow-x: hidden;
+  }
+
+  .page-menu__buttons-wrapp {
+    justify-content: space-around;
+  }
+}

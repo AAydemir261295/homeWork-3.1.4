@@ -1,0 +1,5 @@
+@media screen and (max-width: 780px) and (min-width: 480px) {
+  .page-title__wrapp__buttons-wrapp {
+    display: none;
+  }
+}

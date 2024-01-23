@@ -1,0 +1,36 @@
+@media screen and (max-width: 4000px) and (min-width: 780px) {
+  .about-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .about-description__text-wrapp {
+    width: 50%;
+    padding-right: 30px;
+  }
+
+  .about-description__image-wrapp {
+    width: 50%;
+    max-height: 1100px;
+    overflow: hidden;
+    padding-right: 15px;
+    padding-top: 15px;
+  }
+
+  .about-description__image-wrapp img {
+    /* max-width: 450px; */
+    border-radius: 20px;
+  }
+
+  .about-description__text-wrapp {
+    max-height: 350px;
+    margin-left: 15px;
+  }
+
+  .about-description__text-wrapp > p {
+    max-height: 250px;
+    /* line-break: auto; */
+    overflow: hidden;
+  }
+}

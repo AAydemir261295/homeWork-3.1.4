@@ -1,0 +1,10 @@
+@media screen and (max-width: 480px) {
+  /* .page-menu {
+    overflow-x: scroll;
+    scrollbar-width: thin;
+  } */
+  .page-menu__buttons-wrapp {
+    justify-content: flex-start;
+  }
+  
+}

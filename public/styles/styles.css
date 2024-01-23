@@ -79,24 +79,6 @@ main {
   }
 }
 
-.menu-btn {
-  background-color: transparent;
-  outline: none;
-  border: 1px solid transparent;
-  color: antiquewhite;
-  font-weight: bold;
-  white-space: nowrap;
-  cursor: pointer;
-}
-
-.menu-btn:active {
-  border: 1px solid antiquewhite;
-}
-
-.totaly-active {
-  border: 1px solid antiquewhite;
-}
-
 .hidden {
   display: none;
 }
@@ -109,7 +91,7 @@ main {
       format("embedded-opentype"),
     url("fonts/TTLakesCondensed-DemiBold.woff") format("woff"),
     url("fonts/TTLakesCondensed-DemiBold.ttf") format("truetype");
-  font-weight: 600;
+  font-weight: bolder;
   font-style: normal;
   font-display: optional;
 }

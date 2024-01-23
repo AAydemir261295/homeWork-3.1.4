@@ -6,8 +6,7 @@
   }
 } */
 
-@media screen and (max-width: 480px) {
-}
+
 
 .page-title {
   display: flex;
@@ -23,6 +22,9 @@
 
 .page-title__wrapp__background {
   border-radius: 10px;
+  /* padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px; */
 }
 
 .page-title__wrapp__background {
@@ -33,3 +35,7 @@
   margin-top: 7px;
   margin-left: 15px;
 }
+
+
+
+

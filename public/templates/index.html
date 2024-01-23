@@ -6,13 +6,75 @@
     <link rel="stylesheet" href="../styles/styles.css" />
 
     <link rel="stylesheet" href="../styles/body/header/nav-bar/nav-bar.css" />
+    <link
+      rel="stylesheet"
+      href="../styles/body/header/nav-bar/nav-bar480.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../styles/body/header/nav-bar/nav-bar480-780.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../styles/body/header/nav-bar/nav-bar>780.css"
+    />
 
     <link
       rel="stylesheet"
       href="../styles/body/main/page-title/page-title.css"
     />
+
+    <link
+      rel="stylesheet"
+      href="../styles/body/main/page-title/page-title480.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="../styles/body/main/page-title/page-title480-780.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="../styles/body/main/page-title/page-title>780.css"
+    />
+
     <link rel="stylesheet" href="../styles/body/main/page-menu/page-menu.css" />
-    <link rel="stylesheet" href="../styles/body/main/about/about.css" />
+    <link
+      rel="stylesheet"
+      href="../styles/body/main/page-menu/page-menu__buttons-wrapp__buttons/__menu-btn.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="../styles/body/main/page-menu/page-menu480.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../styles/body/main/page-menu/page-menu480-780.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="../styles/body/main/page-menu/page-menu>780.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="../styles/body/main/about-description/about-description.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../styles/body/main/about-description/about-description480.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../styles/body/main/about-description/about-description480-780.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../styles/body/main/about-description/about-description>780.css"
+    />
 
     <title>CamelCase</title>
   </head>
@@ -85,19 +147,41 @@
         <section class="page-title">
           <div class="page-title__wrapp">
             <div class="page-title__wrapp__background">
-              <img src="../images/main/services.svg" alt="" />
+              <div class="page-title__wrapp__background__text-wrapp">
+                <img src="../images/main/services.svg" alt="" />
+              </div>
 
-              <!-- <div class="nav-bar__right-section__icon-wrapp">
-              <div class="nav-bar__right-section__icon-wrapp__circle btn-hover">
-                <img src="../images/navigation/settings.svg" alt="" />
+              <div class="page-title__wrapp__buttons-wrapp">
+                <div class="page-title__wrapp__buttons-wrapp__btn">
+                  <div
+                    class="page-title__wrapp__buttons-wrapp__btn__text-wrapp"
+                  >
+                    <p>Оставить заявку</p>
+                  </div>
+                  <div class="page-title__wrapp__buttons-wrapp__icon-wrapp">
+                    <div
+                      class="page-title__wrapp__buttons-wrapp__icon-wrapp__circle page-title__btn-hover"
+                    >
+                      <img src="../images/navigation/settings.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="page-title__wrapp__buttons-wrapp__btn">
+                  <div
+                    class="page-title__wrapp__buttons-wrapp__btn__text-wrapp"
+                  >
+                    <p>Статус ремонта</p>
+                  </div>
+                  <div class="page-title__wrapp__buttons-wrapp__icon-wrapp">
+                    <div
+                      class="page-title__wrapp__buttons-wrapp__icon-wrapp__circle page-title__btn-hover"
+                    >
+                      <img src="../images/navigation/search.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-  
-            <div class="nav-bar__right-section__icon-wrapp">
-              <div class="nav-bar__right-section__icon-wrapp__circle btn-hover">
-                <img src="../images/navigation/search.svg" alt="" />
-              </div>
-            </div> -->
             </div>
           </div>
         </section>
@@ -106,53 +190,60 @@
           <div class="page-menu__buttons-wrapp">
             <div class="page-menu__buttons-wrapp__buttons">
               <button
-                class="page-menu__buttons-wrapp__buttons__repaireable-devices menu-btn totaly-active"
+                class="page-menu__buttons-wrapp__buttons__menu-btn totaly-active"
               >
                 Ремонтируемые устройства
               </button>
-              <button
-                class="page-menu__buttons-wrapp__buttons__other-services menu-btn"
-              >
+              <button class="page-menu__buttons-wrapp__buttons__menu-btn">
                 Другие услуги
               </button>
-              <button
-                class="page-menu__buttons-wrapp__buttons__price-list menu-btn"
-              >
+              <button class="page-menu__buttons-wrapp__buttons__menu-btn">
                 Цены на услуги
+              </button>
+              <button class="page-menu__buttons-wrapp__buttons__menu-btn">
+                Адреса сервисных центров
+              </button>
+              <button class="page-menu__buttons-wrapp__buttons__menu-btn">
+                Специальные цены
+              </button>
+              <button class="page-menu__buttons-wrapp__buttons__menu-btn">
+                Отзывы
               </button>
             </div>
           </div>
         </section>
 
         <section class="about-description">
-            <div class="about-description__text-wrapp">
-              <p class="about-description__text-wrapp__text">
-                Мы являемся авторизованным сервисным центром по ремонту техники
-                Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
-                официальной гарантией производителя.
-                <br />
-                <br />
-                Мы успешно работаем с 1992 года и заслужили репутацию надежного
-                партнера
-              </p>
-              <div class="about-description__text-wrapp__show-more-btn">
-                <div class="about-description__text-wrapp__show-more-btn__icon">
-                  <img
-                    src="../images/main/about/showMore.svg"
-                    width="12"
-                    height="12"
-                    alt=""
-                  />
-                </div>
-                <div class="about-description__text-wrapp__show-more-btn__text">
-                  Читать далее
-                </div>
+          <div class="about-description__text-wrapp">
+            <p class="about-description__text-wrapp__text">
+              Мы являемся авторизованным сервисным центром по ремонту техники
+              Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+              официальной гарантией производителя.
+              <br />
+              <br />
+              Мы успешно работаем с 1992 года и заслужили репутацию надежного
+              партнера, что подтверждает большое количество постоянных клиентов.
+              Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою
+              очередь, советуют нас родным и близким.
+            </p>
+            <div class="about-description__text-wrapp__show-more-btn">
+              <div class="about-description__text-wrapp__show-more-btn__icon">
+                <img
+                  src="../images/main/about/showMore.svg"
+                  width="12"
+                  height="12"
+                  alt=""
+                />
+              </div>
+              <div class="about-description__text-wrapp__show-more-btn__text">
+                Читать далее
               </div>
             </div>
+          </div>
 
-            <div class="about-description__image-wrapp">
-              <img src="../images/main/about/retro.svg" alt="" />
-            </div>
+          <div class="about-description__image-wrapp">
+            <img src="../images/main/about/retro.svg" alt="" />
+          </div>
         </section>
       </div>
     </main>
