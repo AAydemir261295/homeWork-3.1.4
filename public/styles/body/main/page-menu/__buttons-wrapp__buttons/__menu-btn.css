@@ -1,24 +1,4 @@
-.page-menu {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 5px;
-}
-
-.page-menu__buttons-wrapp {
-  display: flex;
-  flex-direction: row;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.page-menu__buttons-wrapp__buttons {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-/* .page-menu__buttons-wrapp__buttons__menu-btn {
+.page-menu__buttons-wrapp__buttons__menu-btn {
   background-color: transparent;
   outline: none;
   border: 1px solid transparent;
@@ -43,5 +23,4 @@
 
 .totaly-active {
   border: 1px solid antiquewhite;
-} */
-
+}
