@@ -29,7 +29,7 @@
   .page-title__btn-hover {
     animation: onHoverOff 0.3s both;
   }
-  
+
   .page-title__btn-hover:hover {
     cursor: pointer;
     animation: onHoverOn 0.3s both;
@@ -38,26 +38,26 @@
   .page-title__wrapp__buttons-wrapp__btn .page-title__btn-hover {
     animation: pageTitleBtnHoverOff 0.3s both;
   }
-  
+
   .page-title__wrapp__buttons-wrapp__btn:hover .page-title__btn-hover {
     animation: pageTitleBtnHoverOn 0.3s both;
   }
-  
+
   @keyframes pageTitleBtnHoverOff {
     100% {
       background-color: indianred;
     }
-  
+
     0% {
       background-color: transparent;
     }
   }
-  
+
   @keyframes pageTitleBtnHoverOn {
     0% {
       background-color: indianred;
     }
-  
+
     100% {
       background-color: transparent;
     }

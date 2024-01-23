@@ -18,7 +18,7 @@
   justify-content: space-between;
 }
 
-/* .page-menu__buttons-wrapp__buttons__menu-btn {
+.page-menu__buttons-wrapp__buttons__menu-btn {
   background-color: transparent;
   outline: none;
   border: 1px solid transparent;
@@ -43,5 +43,4 @@
 
 .totaly-active {
   border: 1px solid antiquewhite;
-} */
-
+}
