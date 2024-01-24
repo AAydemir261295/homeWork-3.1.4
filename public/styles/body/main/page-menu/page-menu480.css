@@ -1,6 +1,7 @@
 @media screen and (max-width: 480px) {
   .page-menu {
     overflow-x: scroll;
+    overflow-y: hidden;
     scrollbar-width: thin;
     height: 9%;
   }

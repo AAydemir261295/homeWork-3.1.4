@@ -6,10 +6,17 @@
     height: 100%;
   }
 
+  /* .about-description article {
+ 
+  } */
+
   .about-description--text {
-    height: 100px;
+    margin-top: 0;
+    height: 115px;
     color: antiquewhite;
     font-family: "TT Lakes";
+    padding-left: 5px;
+    padding-right: 5px;
     overflow: hidden;
   }
 
