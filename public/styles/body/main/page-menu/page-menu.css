@@ -33,8 +33,15 @@
   font-family: "TT Lakes";
   font-weight: bold;
   font-size: 15px;
+  animation: onHoverOffBorder 0.3s both;
+
 }
 
 .page-menu__buttons-wrapp--buttons--btn:hover {
-  border: 1px solid antiquewhite;
+  /* border: 1px solid antiquewhite; */
+  animation: onHoverOnBorder 0.3s both;
 }
+
+
+
+

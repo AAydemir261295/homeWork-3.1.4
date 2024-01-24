@@ -67,6 +67,26 @@ main {
   }
 }
 
+@keyframes onHoverOffBorder {
+  100% {
+    border: 1px solid transparent;
+  }
+
+  0% {
+    border: 1px solid antiquewhite;
+  }
+}
+
+@keyframes onHoverOnBorder {
+  0% {
+    border: 1px solid transparent;
+  }
+
+  100% {
+    border: 1px solid antiquewhite;
+  }
+}
+
 @font-face {
   font-family: "TT Lakes";
   src: url("TTLakesCondensed-DemiBold.eot");
