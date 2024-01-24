@@ -8,7 +8,7 @@
     height: 50px;
   }
 
-  .nav-bar__left-section--icon-wrapp--menu-icon {
+  .nav-bar__left-section--menu-icon {
     margin-left: 10px;
     margin-right: 10px;
     width: 45px;
@@ -23,7 +23,7 @@
     transition-duration: 0.3s;
   }
 
-  .nav-bar__left-section--icon-wrapp--menu-icon:hover {
+  .nav-bar__left-section--menu-icon:hover {
     background-color: transparent;
   }
 
@@ -117,7 +117,7 @@
     background-color: transparent;
   }
 
-  .nav-bar__right-section--person-icon {
+  .nav-bar__center-section--person-icon {
     margin-left: 10px;
     margin-right: 10px;
     width: 45px;
@@ -131,7 +131,7 @@
     transition-duration: 0.3s;
   }
 
-  .nav-bar__right-section--person-icon:hover {
+  .nav-bar__center-section--person-icon:hover {
     background-color: transparent;
   }
 }
