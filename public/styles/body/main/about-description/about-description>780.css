@@ -4,6 +4,7 @@
     flex-direction: row;
     justify-content: space-between;
     height: 60%;
+    padding-top: 30px;
   }
 
   .about-description article {
@@ -12,7 +13,7 @@
   }
 
   .about-description--text {
-    height: 100%;
+    height: 80%;
     width: 80%;
     color: antiquewhite;
     font-family: "TT Lakes";
@@ -32,6 +33,7 @@
     font-family: "TT Lakes";
     font-size: 20px;
     color: antiquewhite;
+    margin-top: 0;
     margin-left: 35px;
   }
 

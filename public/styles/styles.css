@@ -22,7 +22,7 @@ main {
   border-bottom: 1px solid antiquewhite;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  padding-bottom: 25px;
+  /* padding-bottom: 25px; */
   background-color: rgba(250, 235, 215, 0.15);
   overflow: hidden;
 }
@@ -33,7 +33,7 @@ main {
   }
 
   main {
-    height: 500px;
+    height: 460px;
     width: 85%;
   }
 }
@@ -44,7 +44,7 @@ main {
   }
 
   main {
-    height: 380px;
+    height: 350px;
     width: 90%;
     padding-left: 15px;
     padding-right: 15px;

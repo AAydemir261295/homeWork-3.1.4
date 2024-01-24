@@ -2,7 +2,7 @@
   .page-menu {
     overflow-x: scroll;
     scrollbar-width: thin;
-    padding-top: 15px;
+    padding-top: 10px;
   }
 
   .page-menu__buttons-wrapp {
