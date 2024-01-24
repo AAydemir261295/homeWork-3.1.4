@@ -19,11 +19,11 @@
     background-position: 50% 50%;
     background-size: 45px;
     cursor: pointer;
-    animation: onHoverOff 0.3s both;
+    transition-duration: 0.3s;
   }
 
   .nav-bar__left-section--icon-wrapp--menu-icon:hover {
-    animation: onHoverOn 0.3s both;
+    background-color: transparent;
   }
 
   .nav-bar__left-section--logo-icon {
@@ -49,11 +49,11 @@
     background-position: 50% 50%;
     background-size: 45px;
     cursor: pointer;
-    animation: onHoverOff 0.3s both;
+    transition-duration: 0.3s;
   }
 
   .nav-bar__right-section--settings-icon:hover {
-    animation: onHoverOn 0.3s both;
+    background-color: transparent;
   }
 
   .nav-bar__right-section--search-icon {
@@ -67,11 +67,11 @@
     background-position: 50% 50%;
     background-size: 45px;
     cursor: pointer;
-    animation: onHoverOff 0.3s both;
+    transition-duration: 0.3s;
   }
 
   .nav-bar__right-section--search-icon:hover {
-    animation: onHoverOn 0.3s both;
+    background-color: transparent;
   }
 
   .nav-bar__center-section {
@@ -90,11 +90,11 @@
     background-position: 50% 50%;
     background-size: 43px;
     cursor: pointer;
-    animation: onHoverOff 0.3s both;
+    transition-duration: 0.3s;
   }
 
   .nav-bar__center-section--telephone-icon:hover {
-    animation: onHoverOn 0.3s both;
+    background-color: transparent;
   }
 
   .nav-bar__center-section--message-icon {
@@ -108,11 +108,11 @@
     background-position: 50% 10%;
     background-size: 47px;
     cursor: pointer;
-    animation: onHoverOff 0.3s both;
+    transition-duration: 0.3s;
   }
 
   .nav-bar__center-section--message-icon:hover {
-    animation: onHoverOn 0.3s both;
+    background-color: transparent;
   }
 
   .nav-bar__right-section--person-icon {
@@ -126,10 +126,10 @@
     background-position: 50% 50%;
     background-size: 60px;
     cursor: pointer;
-    animation: onHoverOff 0.3s both;
+    transition-duration: 0.3s;
   }
 
   .nav-bar__right-section--person-icon:hover {
-    animation: onHoverOn 0.3s both;
+    background-color: transparent;
   }
 }

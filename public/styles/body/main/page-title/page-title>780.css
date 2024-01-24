@@ -45,12 +45,13 @@
     background-position: 50% 50%;
     background-size: 45px;
     cursor: pointer;
-    animation: onHoverOff 0.3s both;
+    transition-duration: 0.3s;
+
   }
 
   .page-title__wrapp--buttons-wrapp--btn:hover
     .page-title__wrapp--buttons-wrapp--btn--settings-icon {
-    animation: onHoverOn 0.3s both;
+   background-color: transparent;
   }
 
   .page-title__wrapp--buttons-wrapp--btn--search-icon {
@@ -64,15 +65,15 @@
     background-position: 50% 50%;
     background-size: 45px;
     cursor: pointer;
-    animation: onHoverOff 0.3s both;
+    transition-duration: 0.3s;
   }
 
   .page-title__wrapp--buttons-wrapp--btn:hover
     .page-title__wrapp--buttons-wrapp--btn--search-icon {
-    animation: onHoverOn 0.3s both;
+    background-color: transparent;
   }
 
-  @keyframes pageTitleBtnHoverOff {
+  /* @keyframes pageTitleBtnHoverOff {
     100% {
       background-color: indianred;
     }
@@ -90,5 +91,5 @@
     100% {
       background-color: transparent;
     }
-  }
+  } */
 }

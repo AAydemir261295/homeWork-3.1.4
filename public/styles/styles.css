@@ -67,7 +67,7 @@ main {
   }
 }
 
-@keyframes onHoverOffBorder {
+/* @keyframes onHoverOffBorder {
   100% {
     border: 1px solid transparent;
   }
@@ -85,7 +85,7 @@ main {
   100% {
     border: 1px solid antiquewhite;
   }
-}
+} */
 
 @font-face {
   font-family: "TT Lakes";

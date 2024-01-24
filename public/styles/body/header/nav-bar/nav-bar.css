@@ -53,7 +53,7 @@
   cursor: pointer;
 }
 
-@keyframes onHoverOff {
+/* @keyframes onHoverOff {
   100% {
     background-color: indianred;
   }
@@ -71,4 +71,4 @@
   100% {
     background-color: #808d8500;
   }
-}
+} */
