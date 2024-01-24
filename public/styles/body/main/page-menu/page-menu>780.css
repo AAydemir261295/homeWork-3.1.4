@@ -15,6 +15,6 @@
   }
 
   .page-menu__buttons-wrapp {
-    justify-content: space-around;
+    justify-content: center;
   }
 }

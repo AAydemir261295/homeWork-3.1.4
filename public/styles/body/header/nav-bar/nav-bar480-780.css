@@ -1,44 +1,123 @@
 @media screen and (max-width: 780px) and (min-width: 480px) {
-    nav img {
-      max-width: 45px;
-      max-height: 45px;
-    }
-  
-    .nav-bar {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      border: 1px solid antiquewhite;
-      border-radius: 20px;
-      padding-top: 5px;
-      background-color: rgba(250, 235, 215, 0.241);
-      height: 50px;
-      width: 100%;
-    }
-  
-    .nav-bar__center-section {
-      flex: 3 1 auto;
-      justify-content: flex-end;
-    }
-  
-    .nav-bar__left-section__icon-wrapp__circle {
-      width: 45px;
-      height: 45px;
-      background-color: #cd5c5c;
-      border-radius: 35%;
-    }
-  
-    .nav-bar__right-section__icon-wrapp__circle {
-      width: 45px;
-      height: 45px;
-      background-color: #cd5c5c;
-      border-radius: 35%;
-    }
-  
-    .nav-bar__center-section__icon-wrapp__circle {
-      width: 45px;
-      height: 45px;
-      background-color: #cd5c5c;
-      border-radius: 35%;
-    }
+  nav img {
+    max-width: 45px;
+    max-height: 45px;
   }
+
+  .nav-bar {
+    height: 50px;
+  }
+
+  .nav-bar__left-section--icon-wrapp--menu-icon {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 45px;
+    height: 45px;
+    background-color: #cd5c5c;
+    border-radius: 35%;
+    background-image: url("../../../../images/navigation/menu.svg");
+    background-position: 50% 50%;
+    background-size: 45px;
+    cursor: pointer;
+    animation: onHoverOff 0.3s both;
+  }
+
+  .nav-bar__left-section--icon-wrapp--menu-icon:hover {
+    animation: onHoverOn 0.3s both;
+  }
+
+  .nav-bar__left-section--logo-icon {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 45px;
+    height: 45px;
+    background-image: url("../../../../images/navigation/logo.svg");
+    background-position: 50%;
+    background-size: 45px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+
+  .nav-bar__right-section--settings-icon {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 45px;
+    height: 45px;
+    background-color: #cd5c5c;
+    border-radius: 35%;
+    background-image: url("../../../../images/navigation/settings.svg");
+    background-position: 50% 50%;
+    background-size: 45px;
+    cursor: pointer;
+    animation: onHoverOff 0.3s both;
+  }
+
+  .nav-bar__right-section--settings-icon:hover {
+    animation: onHoverOn 0.3s both;
+  }
+
+  .nav-bar__right-section--search-icon {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 45px;
+    height: 45px;
+    background-color: #cd5c5c;
+    border-radius: 35%;
+    background-image: url("../../../../images/navigation/search.svg");
+    background-position: 50% 50%;
+    background-size: 45px;
+    cursor: pointer;
+    animation: onHoverOff 0.3s both;
+  }
+
+  .nav-bar__right-section--search-icon:hover {
+    animation: onHoverOn 0.3s both;
+  }
+
+  .nav-bar__center-section {
+    flex: 3 1 auto;
+    justify-content: flex-end;
+  }
+
+  .nav-bar__center-section--telephone-icon {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 45px;
+    height: 45px;
+    background-color: #cd5c5c;
+    border-radius: 35%;
+    background-image: url("../../../../images/navigation/telephone.svg");
+    background-position: 50% 50%;
+    background-size: 43px;
+    cursor: pointer;
+    animation: onHoverOff 0.3s both;
+  }
+
+  .nav-bar__center-section--message-icon {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 45px;
+    height: 45px;
+    background-color: #cd5c5c;
+    border-radius: 35%;
+    background-image: url("../../../../images/navigation/message.svg");
+    background-position: 50% 10%;
+    background-size: 47px;
+    cursor: pointer;
+    animation: onHoverOff 0.3s both;
+  }
+
+  .nav-bar__right-section--person-icon {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 45px;
+    height: 45px;
+    background-color: #cd5c5c;
+    border-radius: 35%;
+    background-image: url("../../../../images/navigation/person.svg");
+    background-position: 50% 50%;
+    background-size: 60px;
+    cursor: pointer;
+    animation: onHoverOff 0.3s both;
+  }
+}

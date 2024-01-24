@@ -2,10 +2,10 @@
   .page-menu {
     overflow-x: scroll;
     scrollbar-width: thin;
+    height: 9%;
   }
 
   .page-menu__buttons-wrapp {
     justify-content: flex-start;
   }
-
 }

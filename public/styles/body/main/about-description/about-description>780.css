@@ -3,33 +3,45 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 60%;
   }
 
-  .about-description__text-wrapp {
-    width: 50%;
-    padding-right: 30px;
+  .about-description article {
+    width: 60%;
+    height: 70%;
   }
 
-  .about-description__image-wrapp {
-    width: 50%;
-    max-height: 1100px;
+  .about-description--text {
+    height: 100%;
+    width: 80%;
+    color: antiquewhite;
+    font-family: "TT Lakes";
+    padding-bottom: 5px;
     overflow: hidden;
-    padding-right: 15px;
-    padding-top: 15px;
   }
 
-  .about-description__image-wrapp img {
-    /* max-width: 450px; */
+  .about-description--text {
+    margin-left: 10px;
+  }
+
+  .about-description--show-more-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 140px;
+    font-family: "TT Lakes";
+    font-size: 20px;
+    color: antiquewhite;
+    margin-left: 35px;
+  }
+
+  .about-description--image {
+    width: 60%;
+    height: 100%;
+    background-image: url(../../../../images/main/about/retro.svg);
+    background-position: 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
     border-radius: 20px;
-  }
-
-  .about-description__text-wrapp {
-    max-height: 350px;
-    margin-left: 15px;
-  }
-
-  .about-description__text-wrapp > p {
-    max-height: 250px;
-    overflow: hidden;
   }
 }

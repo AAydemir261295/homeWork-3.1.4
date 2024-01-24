@@ -1,37 +1,19 @@
-.about-description__text-wrapp {
-  display: flex;
-  flex-direction: column;
+
+
+.about-description--show-more-btn--icon {
+  align-self: center;
+  width: 15px;
+  height: 15px;
+  padding: 4px;
+  background-image: url(../../../../images/main/about/showMore.svg);
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border: 1px solid transparent;
+  border-radius: 8px;
 }
 
-.about-description__text-wrapp__text {
-  color: antiquewhite;
-  font-family: "TT Lakes";
-}
-
-.about-description__image-wrapp {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.about-description__text-wrapp__show-more-btn {
-  display: flex;
-  flex-direction: row;
-  margin-left: 25px;
-  margin-bottom: 15px;
-}
-
-.about-description__text-wrapp__show-more-btn:hover {
-  cursor: pointer;
-}
-
-.about-description__text-wrapp__show-more-btn__icon {
-  padding-right: 10px;
-  padding-top: 4px;
-}
-
-.about-description__text-wrapp__show-more-btn__text {
-  color: antiquewhite;
-  font-family: "TT Lakes";
-  font-size: 20px;
+.about-description--show-more-btn:hover
+  .about-description--show-more-btn--icon {
+  border: 1px solid antiquewhite;
 }

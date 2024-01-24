@@ -3,44 +3,73 @@
     height: 70px;
   }
 
-  .page-title__wrapp__background {
+  .page-title__wrapp {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 90%;
+    border-radius: 10px;
+    background-color: rgba(250, 235, 215, 0.435);
   }
 
-  .page-title__wrapp__background__text-wrapp {
-    margin-top: 8px;
+  .page-title__wrapp--title {
+    font-family: "TT Lakes";
+    line-height: 20px;
+    color: antiquewhite;
+    margin-left: 10px;
   }
 
-  .page-title__wrapp__buttons-wrapp {
+  .page-title__wrapp--buttons-wrapp {
     display: flex;
     flex-direction: row;
   }
 
-  .page-title__wrapp__buttons-wrapp__btn {
+  .page-title__wrapp--buttons-wrapp--btn {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    font-family: "TT Lakes";
+    color: antiquewhite;
     cursor: pointer;
   }
 
-  .page-title__btn-hover {
+  .page-title__wrapp--buttons-wrapp--btn--settings-icon {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 45px;
+    height: 45px;
+    background-color: #cd5c5c;
+    border-radius: 35%;
+    background-image: url("../../../../images/navigation/settings.svg");
+    background-position: 50% 50%;
+    background-size: 45px;
+    cursor: pointer;
     animation: onHoverOff 0.3s both;
   }
 
-  .page-title__btn-hover:hover {
-    cursor: pointer;
+  .page-title__wrapp--buttons-wrapp--btn:hover
+    .page-title__wrapp--buttons-wrapp--btn--settings-icon {
     animation: onHoverOn 0.3s both;
   }
 
-  .page-title__wrapp__buttons-wrapp__btn .page-title__btn-hover {
-    animation: pageTitleBtnHoverOff 0.3s both;
+  .page-title__wrapp--buttons-wrapp--btn--search-icon {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 45px;
+    height: 45px;
+    background-color: #cd5c5c;
+    border-radius: 35%;
+    background-image: url("../../../../images/navigation/search.svg");
+    background-position: 50% 50%;
+    background-size: 45px;
+    cursor: pointer;
+    animation: onHoverOff 0.3s both;
   }
 
-  .page-title__wrapp__buttons-wrapp__btn:hover .page-title__btn-hover {
-    animation: pageTitleBtnHoverOn 0.3s both;
+  .page-title__wrapp--buttons-wrapp--btn:hover
+    .page-title__wrapp--buttons-wrapp--btn--search-icon {
+    animation: onHoverOn 0.3s both;
   }
 
   @keyframes pageTitleBtnHoverOff {
@@ -61,34 +90,5 @@
     100% {
       background-color: transparent;
     }
-  }
-
-  .page-title__wrapp__buttons-wrapp__btn__text-wrapp p {
-    font-family: "TT Lakes";
-    color: antiquewhite;
-  }
-
-  .page-title__wrapp__buttons-wrapp__icon-wrapp {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
-  .page-title__wrapp__buttons-wrapp__icon-wrapp img {
-    max-width: 45px;
-    max-height: 45px;
-    top: 0;
-    right: 0;
-  }
-
-  .page-title__wrapp__buttons-wrapp__icon-wrapp__circle {
-    width: 45px;
-    height: 45px;
-    background-color: #cd5c5c;
-    border-radius: 35%;
-  }
-
-  .page-title__wrapp__buttons-wrapp__icon-wrapp__circle img {
-    margin-top: 0;
-    margin-left: 1px;
   }
 }
