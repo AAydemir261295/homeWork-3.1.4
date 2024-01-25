@@ -39,3 +39,52 @@
 .page-menu__buttons-wrapp--buttons--btn:hover {
   border: 1px solid antiquewhite;
 }
+
+
+@media screen and (max-width: 480px) {
+  .page-menu {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: thin;
+    height: 9%;
+  }
+
+  .page-menu__buttons-wrapp {
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 780px) and (min-width: 480px) {
+  .page-menu {
+    overflow-x: scroll;
+    scrollbar-width: thin;
+    padding-top: 10px;
+  }
+
+  .page-menu__buttons-wrapp {
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 1120px) and (min-width: 780px) {
+  .page-menu {
+    overflow-x: auto;
+    scrollbar-width: thin;
+  }
+
+  .page-menu__buttons-wrapp {
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 10000px) and (min-width: 1120px) {
+  .page-menu {
+    overflow-x: hidden;
+  }
+
+  .page-menu__buttons-wrapp {
+    justify-content: center;
+  }
+}
+
+
