@@ -1,3 +1,9 @@
+@import url(body/header/nav-bar/nav-bar.css);
+@import url(body/main/about-description/about-description.css);
+@import url(body/main/page-menu/page-menu.css);
+@import url(body/main/page-title/page-title.css);
+
+
 html {
   margin: 0;
   padding: 0;
