@@ -1,6 +1,4 @@
-@import url(/src/public/styles/blocks/about-description/__show-more-btn/about-description__show-more-btn.css);
 
-/* edited */
 @media screen and (max-width: 480px) {
   .about-description {
     display: flex;
