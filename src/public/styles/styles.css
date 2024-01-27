@@ -5,8 +5,7 @@
 @import url(blocks/menu-btn/menu-btn.css);
 @import url(blocks/logo.css);
 
-@import url(blocks/about-description/__show-more-btn/about-description__show-more-btn.css);
-
+@import url(blocks/about-description/about-description__show-more-btn.css);
 
 html {
   margin: 0;
