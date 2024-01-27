@@ -1,4 +1,4 @@
-@import url(__show-more-btn/about-description__show-more-btn.css);
+@import url('__show-more-btn/about-description__show-more-btn.css');
 
 @media screen and (max-width: 480px) {
   .about-description {
