@@ -1,8 +1,9 @@
-@import url(body/header/nav-bar/nav-bar.css);
-@import url(body/main/about-description/about-description.css);
-@import url(body/main/page-menu/page-menu.css);
-@import url(body/main/page-title/page-title.css);
-
+@import url(blocks/nav-bar/nav-bar.css);
+@import url(blocks/about-description/about-description.css);
+@import url(blocks/page-menu/page-menu.css);
+@import url(blocks/page-title.css);
+@import url(blocks/menu-btn/menu-btn.css);
+@import url(blocks/logo.css);
 
 html {
   margin: 0;
@@ -50,7 +51,7 @@ main {
 
   main {
     height: 350px;
-    width: 90%;
+    width: 85%;
     padding-left: 15px;
     padding-right: 15px;
   }

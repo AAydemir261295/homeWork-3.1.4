@@ -1,0 +1,45 @@
+@import url(__btn/page-menu__btn.css);
+
+.page-menu {
+  display: flex;
+  flex-direction: row;
+  padding-left: 15px;
+  padding-right: 15px;
+  scrollbar-width: thin;
+  overflow-y: hidden;
+}
+
+/********* TEMP */
+.page-menu :nth-child(2) {
+  border: 1px solid antiquewhite;
+}
+/* TEMP ********/
+
+@media screen and (max-width: 480px) {
+  .page-menu {
+    overflow-x: auto;
+    justify-content: flex-start;
+    height: 10%;
+  }
+}
+
+@media screen and (max-width: 780px) and (min-width: 480px) {
+  .page-menu {
+    overflow-x: scroll;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 1120px) and (min-width: 780px) {
+  .page-menu {
+    overflow-x: auto;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 10000px) and (min-width: 1120px) {
+  .page-menu {
+    overflow-x: auto;
+    justify-content: center;
+  }
+}

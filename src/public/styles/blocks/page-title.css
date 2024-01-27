@@ -1,0 +1,60 @@
+.page-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(250, 235, 215, 0.435);
+  border-radius: 10px;
+  width: 90%;
+  align-self: center;
+}
+
+.page-title h3 {
+  font-family: "TT Lakes";
+  line-height: 0px;
+  color: antiquewhite;
+  margin-left: 10px;
+}
+
+.page-title p {
+  font-family: "TT Lakes";
+  color: antiquewhite;
+}
+
+@media screen and (max-width: 480px) {
+  .page-title {
+    height: 30px;
+  }
+
+  .page-title__wrapp {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 780px) and (min-width: 480px) {
+  .page-title {
+    font-size: 22px;
+  }
+
+  .page-title__wrapp {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 4000px) and (min-width: 780px) {
+  .page-title {
+    height: 60px;
+  }
+
+  .page-title h3 {
+    font-size: 24px;
+  }
+
+  .page-title__wrapp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}

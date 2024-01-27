@@ -1,0 +1,27 @@
+@media screen and (max-width: 480px) {
+  .nav-bar__divider {
+    margin-top: 5px;
+    height: 60%;
+  }
+
+  .nav-bar__left-section > div:nth-child(2) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 780px) and (min-width: 480px) {
+  .nav-bar__divider {
+    margin-top: 6px;
+    height: 65%;
+  }
+}
+
+@media screen and (max-width: 4000px) and (min-width: 780px) {
+}
+
+.nav-bar__divider {
+  width: 2px;
+  border: 1px solid antiquewhite;
+  border-radius: 2px;
+  background-color: rgba(250, 235, 215, 0.363);
+}

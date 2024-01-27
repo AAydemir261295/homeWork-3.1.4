@@ -1,0 +1,23 @@
+.page-menu__btn {
+  background-color: transparent;
+  outline: none;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  color: antiquewhite;
+  margin-right: 5px;
+  padding-top: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 1px;
+  letter-spacing: 0.4px;
+  white-space: nowrap;
+  cursor: pointer;
+  font-family: "TT Lakes";
+  font-weight: bold;
+  font-size: 15px;
+  transition-duration: 0.3s;
+}
+
+.page-menu__btn:hover {
+  border: 1px solid antiquewhite;
+}

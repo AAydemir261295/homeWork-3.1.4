@@ -1,0 +1,35 @@
+.about-description__show-more-wrapp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "TT Lakes";
+  color: antiquewhite;
+  line-height: 0px;
+  width: 140px;
+  font-family: "TT Lakes";
+  font-size: 20px;
+  margin-left: 15px;
+  height: 0px;
+  margin-top: 10px;
+}
+
+.about-description__show-more-wrapp img {
+  width: 15px;
+  height: 15px;
+
+  padding: 4px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  transition-duration: 0.3s;
+}
+
+.about-description__show-more-wrapp:hover img {
+  border: 1px solid antiquewhite;
+}
+
+@media screen and (max-width: 4000px) and (min-width: 780px) {
+  .about-description__show-more-wrapp {
+    margin-left: 50px;
+  }
+}
