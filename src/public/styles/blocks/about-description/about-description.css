@@ -1,5 +1,6 @@
-@import url('__show-more-btn/about-description__show-more-btn.css');
+@import url(/src/public/styles/blocks/about-description/__show-more-btn/about-description__show-more-btn.css);
 
+/* edited */
 @media screen and (max-width: 480px) {
   .about-description {
     display: flex;
@@ -98,6 +99,7 @@
     margin-top: 15px;
     justify-items: flex-end;
     width: 45%;
+    height: 95%;
   }
 
   .about-description__img-wrapp img {
