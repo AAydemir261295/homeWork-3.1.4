@@ -5,7 +5,7 @@
 @import url(blocks/menu-btn/menu-btn.css);
 @import url(blocks/logo.css);
 
-@import url(blocks/about-description/about-description__show-more-btn.css);
+@import url(blocks/about-description/about-description__show-more-wrapp.css);
 @import url(blocks/nav-bar/nav-bar__divider.css);
 @import url(blocks/page-menu/page-menu__btn.css);
 
