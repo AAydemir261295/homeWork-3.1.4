@@ -1,4 +1,3 @@
-
 .nav-bar {
   display: flex;
   flex-direction: row;
@@ -33,6 +32,10 @@
   nav img {
     max-width: 40px;
     max-height: 40px;
+  }
+
+  .nav-bar__center-section :nth-child(-n + 3) {
+    display: none;
   }
 }
 
